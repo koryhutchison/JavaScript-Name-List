@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bella Lash</title>
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!--Scripts-->
+        <script src="scripts/jquery-3.1.1.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>JavaScript Name Adder</h1>
+                <p>Enter in a name below to add it to the list.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <form class="form-group">
+                        <label for="name">Name</label>
+                        <span id="required-alert">This field is required</span>
+                        <input id="form-name" type="text" class="form-control form-width">
+                        <label for="age">Age</label>
+                        <input id="form-age" type="number" class="form-control form-width">
+                        <button id="form-button" type="submit" class="btn btn-primary">Add</button>
+                        <button id="form-clear-button" class="btn btn-danger">Clear</button>
+                    </form>
+                </div>             
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <h3>List:</h3>
+                        <span id="result-list"></span>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </body>
+    <script src="scripts/form.js"></script>
+</html>

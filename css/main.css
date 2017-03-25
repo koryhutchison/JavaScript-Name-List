@@ -1,0 +1,15 @@
+.form-width {
+    max-width: 300px;
+}
+
+#form-button {
+    margin-top: 5px;
+}
+
+#form-clear-button {
+    margin-top: 5px;
+}
+
+#required-alert {
+    color: red;
+}
